@@ -2,7 +2,7 @@
 
 yum install -y nodejs
 yum install -y npm
-yum -y install nano
+yum install -y nano
 ln -sv /usr/bin/nano /usr/bin/pico
 
 npm install -g repl.history
@@ -13,4 +13,3 @@ cd ~
 git clone git@github.com:TheWeatherCompany/wxu-drupal.git
 
 ln -s ~/wxu-drupal /dru
-
