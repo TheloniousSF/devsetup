@@ -45,3 +45,5 @@ export PS1
 
 #Make git log awesome
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit"
+#source /etc/profile.d/rvm.sh
+#rvm use 2.1.5 --default
