@@ -1,1 +1,13 @@
 *.ssh
+.bash_history
+.bash_logout
+.bash_profile
+.cshrc
+.gem/
+.gitconfig
+.gnupg/
+.my.cnf
+.npm/
+.rnd
+.tcshrc
+grid-config-mgmt/
