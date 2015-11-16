@@ -17,10 +17,18 @@ alias cdpapers="cd /software/dist/newspaper/newspaper/papers"
 alias cdscrapers="cd /prod/www/apache/htdocs/autoasp/scrapers"
 alias cdmachines="cd /software/dist/types"
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-		. /etc/bashrc
-fi
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+
+# SYSTEM MODS
+
+alias lh='ls -lhaG'
+alias reload='source ~/.bash_profile'
+alias grep='grep -r --color=auto'
+
 
 export WUI_BUILD_ROOT=/code
 

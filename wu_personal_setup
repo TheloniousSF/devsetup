@@ -3,10 +3,11 @@
 yum install -y nodejs
 yum install -y npm
 yum install -y nano
-
 npm install -g repl.history
 npm install -g grunt-cli
 npm install -g bower
 npm install -g gulp
+npm install --save-dev gulp
+npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-livereload gulp-cache del --save-dev
 
 ln -sv /usr/bin/nano /usr/bin/pico
