@@ -16,6 +16,7 @@ alias cdbrands="cd /software/dist/newspaper/newspaper/brands"
 alias cdpapers="cd /software/dist/newspaper/newspaper/papers"
 alias cdscrapers="cd /prod/www/apache/htdocs/autoasp/scrapers"
 alias cdmachines="cd /software/dist/types"
+alias grid="cd ~/grid-config-mgmt/provisioners/puppet/modules/wu-datacenter/files"
 
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -25,7 +26,7 @@ alias .....='cd ../../../..'
 
 # SYSTEM MODS
 
-alias lh='ls -lhaG'
+alias lh='ls -lhaG | more'
 alias reload='source ~/.bash_profile'
 alias grep='grep -r --color=auto'
 
