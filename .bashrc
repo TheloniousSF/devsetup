@@ -26,7 +26,7 @@ alias .....='cd ../../../..'
 
 # SYSTEM MODS
 
-alias lh='ls -lhaG | more'
+alias lh='ls -lhaG'
 alias reload='source ~/.bash_profile'
 alias grep='grep -r --color=auto'
 
