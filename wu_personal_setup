@@ -4,3 +4,8 @@ yum install -y nano
 npm install -g bower
 
 ln -sv /usr/bin/nano /usr/bin/pico
+
+# Install C++11
+cd /etc/yum.repos.d
+wget http://people.centos.org/tru/devtools-1.1/devtools-1.1.repo 
+yum --enablerepo=testing-1.1-devtools-6 --skip-broken install devtoolset-1.1-gcc devtoolset-1.1-gcc-c++

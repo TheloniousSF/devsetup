@@ -39,6 +39,9 @@ PATH=$PATH:$HOME/bin
 
 export PATH
 
+export PATH=/opt/centos/devtoolset-1.1/root/usr/bin/:$PATH
+
+
 # Set the default PS1
 PS1="\u:\h \W$ "
 
