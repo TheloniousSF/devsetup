@@ -28,7 +28,7 @@ alias .....='cd ../../../..'
 
 alias lh='ls -lhaG'
 alias reload='source ~/.bash_profile'
-alias grep='grep -r --color=auto'
+alias grep='grep -nr --color=auto'
 
 
 export WUI_BUILD_ROOT=/code
