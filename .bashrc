@@ -41,7 +41,7 @@ export PATH
 
 export PATH=/opt/centos/devtoolset-1.1/root/usr/bin/:$PATH
 
-stty columns 1000
+#stty columns 1000
 
 # Set the default PS1
 PS1="\u:\h \W$ "
