@@ -9,6 +9,7 @@ alias cdh="cd /prod/www/apache/htdocs"
 alias sassy="cd /prod/www/apache/htdocs/scss"
 alias cdt="cd /prod/www/template/omnibus"
 alias cdm="cd /prod/www/template/manmade"
+alias cdg="cd /prod/www/template/g11n"
 alias news="cd /mnt/s3/news"
 alias cdwm="cd /prod/www/apache/htdocs/scripts/wundermap/src/dev/"
 alias cdpd="cd /prod/www/template/manmade/Pages/WeatherStation/Dashboard"
@@ -16,6 +17,21 @@ alias cdbrands="cd /software/dist/newspaper/newspaper/brands"
 alias cdpapers="cd /software/dist/newspaper/newspaper/papers"
 alias cdscrapers="cd /prod/www/apache/htdocs/autoasp/scrapers"
 alias cdmachines="cd /software/dist/types"
+alias grid="cd ~/grid-config-mgmt/provisioners/puppet/modules/wu-datacenter/files"
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+
+# SYSTEM MODS
+
+alias lh='ls -lhaG'
+alias lhd='ls -ld -- */'
+alias rebash='source ~/.bash_profile'
+alias grep='grep -nr --color=auto'
+
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
