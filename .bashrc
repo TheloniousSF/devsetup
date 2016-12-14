@@ -33,11 +33,6 @@ alias rebash='source ~/.bash_profile'
 alias grep='grep -nr --color=auto'
 
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-		. /etc/bashrc
-fi
-
 export WUI_BUILD_ROOT=/code
 
 # User specific environment and startup programs
@@ -45,6 +40,10 @@ export WUI_BUILD_ROOT=/code
 PATH=$PATH:$HOME/bin
 
 export PATH
+
+export PATH=/opt/centos/devtoolset-1.1/root/usr/bin/:$PATH
+
+#stty columns 1000
 
 # Set the default PS1
 PS1="\u:\h \W$ "
