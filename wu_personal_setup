@@ -4,6 +4,10 @@ yum install -y nano
 npm install -g bower
 npm install -g svgi
 
+brew tap eddieantonio/eddieantonio
+brew install imgcat
+brew install ccat
+
 ln -sv /usr/bin/nano /usr/bin/pico
 
 # Install C++11
