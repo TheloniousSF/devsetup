@@ -32,7 +32,7 @@ alias lhd='ls -ld -- */'
 alias rebash='source ~/.bash_profile'
 alias grep='grep -nr --color=auto'
 
-
+export EDITOR='pico'
 export WUI_BUILD_ROOT=/code
 
 # User specific environment and startup programs
